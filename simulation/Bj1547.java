@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Bj1547 {
     public static void main(String[] args) throws IOException {
-        // 컵의 위치를 바꾼 횟수 M, M >= 50 자연수
+        // 컵의 위치를 바꾼 횟수 M, M <= 50 자연수
         // 컵의 위치를 바꾼 자리 X, Y / X, Y >= 3 / X == Y도 가능
 
         // 무조건 1번 컵에 공을 넣고 시작.
