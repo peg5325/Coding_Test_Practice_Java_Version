@@ -27,8 +27,6 @@ public class Bj1547 {
             temp = cups[x];
             cups[x] = cups[y];
             cups[y] = temp;
-
-            System.out.println(Arrays.toString(cups));
         }
 
         int result = 0;
