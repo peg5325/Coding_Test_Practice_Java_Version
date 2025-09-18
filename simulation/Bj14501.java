@@ -11,17 +11,6 @@ public class Bj14501 {
         // Pi = 상담을 진행 했을 때, 받을 수 있는 비용
         // 얻을 수 있는 최대 수익을 구하는 문제.
 
-        // 길이 N의 Ti와 Pi 배열을 생성
-        // 입력 받은 Ti와 Pi를 배열에 저장.
-        // max 값을 저장할 변수 생성
-        // 첫날 시작해서 가능한 상담건을 진행 후 금액을 max에 저장.
-        // 다음 둘째날부터 가능한 상담건 진행 후 max 값과 비교해서 큰 값을 저장.
-        // 마지막에 저장된 max 값을 출력
-
-        // > 추가 고려사항 <
-        // 바로 더하는 것이 아닌 더 나은 값이 있는지 탐색해야함.
-        //
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
